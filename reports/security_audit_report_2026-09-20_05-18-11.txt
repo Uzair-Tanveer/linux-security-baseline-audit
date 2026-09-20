@@ -1,0 +1,30 @@
+Linux Security Baseline Audit Report
+Generated: 2026-09-20 05:18:11.747267
+Local Machine IP: 127.0.1.1
+OS Version: PRETTY_NAME="Ubuntu 26.04.1 LTS"
+
+Audit Results:
+--------------------------------------------------
+Firewall Enabled: FAIL
+SSH Root Login Disabled: FAIL
+SSH Service Running: FAIL
+
+Listening Ports:
+--------------------------------------------------
+Netid State  Recv-Q Send-Q                     Local Address:Port  Peer Address:Port
+udp   UNCONN 0      0                                0.0.0.0:52446      0.0.0.0:*   
+udp   UNCONN 0      0                              10.0.2.15:3702       0.0.0.0:*   
+udp   UNCONN 0      0                        239.255.255.250:3702       0.0.0.0:*   
+udp   UNCONN 0      0                             127.0.0.54:53         0.0.0.0:*   
+udp   UNCONN 0      0                          127.0.0.53%lo:53         0.0.0.0:*   
+udp   UNCONN 0      0                              127.0.0.1:323        0.0.0.0:*   
+udp   UNCONN 0      0                                0.0.0.0:5353       0.0.0.0:*   
+udp   UNCONN 0      0      [fe80::a00:27ff:fe26:288a]%enp0s3:3702          [::]:*   
+udp   UNCONN 0      0                       [ff02::c]%enp0s3:3702          [::]:*   
+udp   UNCONN 0      0                                  [::1]:323           [::]:*   
+udp   UNCONN 0      0                                   [::]:5353          [::]:*   
+udp   UNCONN 0      0                                      *:34430            *:*   
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53         0.0.0.0:*   
+tcp   LISTEN 0      4096                           127.0.0.1:631        0.0.0.0:*   
+tcp   LISTEN 0      4096                          127.0.0.54:53         0.0.0.0:*   
+tcp   LISTEN 0      4096                               [::1]:631           [::]:*
